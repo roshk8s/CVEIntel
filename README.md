@@ -19,7 +19,7 @@ CLI tool that determines whether specific CVEs have been patched across Amazon L
 # Clone and install
 git clone https://github.com/roshk8s/CVEIntel.git
 cd CVEIntel
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -e ".[dev]"
 ```
